@@ -1,1 +1,9 @@
 @use '../../styles/partials/mixins' as *;
+
+.nav {
+  list-style-type: none;
+  @include tablet {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

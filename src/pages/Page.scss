@@ -1,1 +1,7 @@
 @use '../styles/partials/mixins' as *;
+
+.home {
+  &__img {
+    width: 90vh;
+  }
+}
